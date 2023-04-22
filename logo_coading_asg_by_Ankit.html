@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="file.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+  <style type="text/css">
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #4d4d4d;
+    font-family: 'Poppins', sans-serif;
+}
+
+.rotate{
+    margin-top: 120px !important;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    background-color: transparent;
+    border: 30px solid;
+    border-color: #db8144 #c2bda8 #5da8f3 #a4d6a8;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rotate .text{
+    transform: rotate(-45deg);
+    text-align: center;
+}
+
+.text h1{
+    font-size: 28px;
+    color: #fff;
+}
+
+.text p{
+    color: #fff;
+    font-size: 12px;
+}
+span {
+  color: #597D35;
+}
+  </style>
+
+</head>
+<body>
+  <div class="rotate">
+    <div class="text">
+      <h1>HTML <span>&</span> CSS</h1>
+      <p>design and build website</p>
+    </div>
+  </div>
+</body>
+</html>
